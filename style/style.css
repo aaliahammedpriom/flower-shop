@@ -1,0 +1,108 @@
+*{
+    border: 0;
+    margin: 0;
+}
+nav{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#banner-container{
+    width: 1520px;
+    height: 620px;
+    background-color: rgba(229, 84, 115, 0.1);
+}
+.banner-container-box{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 150px;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-container-text-heading{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 96px;
+    padding-bottom: 32px;
+}
+.banner-container-text-description{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 32px;
+}
+.banner-container-text button{
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    background-color: rgb(229, 84, 115);
+    border-radius: 8px;
+    padding: 20px 43px;
+}
+.banner-container-img{
+    text-align: right;
+    height: 620px;
+
+}
+.banner-container-img img{
+    height: 100%;
+}
+#featured-container{
+    text-align: center;
+}
+.featured-container-heading{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    padding-top: 150px;
+}
+.featured-container-description{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 24px;
+}
+.featured-container-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    padding: 48px 100px 160px 100px;
+
+}
+.featured-container-box-feature{
+    width: 400px;
+    height: 500px;
+    padding: 0px 12px 0px 12px;
+}
+.featured-container-box-img{
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    margin-bottom: 32px;
+}
+.featured-container-box-img img{
+    height: 350px;
+    width:px;
+    padding: 100px 50px 0px 50px;
+}
+.featured-container-box-feature a{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
