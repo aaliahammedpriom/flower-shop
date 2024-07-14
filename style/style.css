@@ -58,6 +58,7 @@ nav{
 }
 #featured-container{
     text-align: center;
+    height: 695px;
 }
 .featured-container-heading{
     color: rgb(39, 39, 39);
@@ -66,7 +67,7 @@ nav{
     font-weight: 800;
     line-height: 48px;
     letter-spacing: 0%;
-    padding-top: 150px;
+    padding-top: 50px;
 }
 .featured-container-description{
     color: rgba(39, 39, 39, 0.6);
@@ -80,7 +81,7 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
-    padding: 48px 100px 160px 100px;
+    padding: 38px 100px 10px 100px;
 
 }
 .featured-container-box-feature{
@@ -91,10 +92,10 @@ nav{
 .featured-container-box-img{
     background-color: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
-    margin-bottom: 32px;
+    margin-bottom: 25px;
 }
 .featured-container-box-img img{
-    height: 350px;
+    height: 330px;
     width:px;
     padding: 100px 50px 0px 50px;
 }
@@ -105,4 +106,65 @@ nav{
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
+}
+.buy-container-box{
+    margin: 185px 100px 185px 100px;
+    border: 2px solid green;
+    height: 320px;
+    width: 1320px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+.buy-container-box-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buy-container-box-content p{
+    color: rgba(39, 39, 39, 0.8);
+font-family: Lato;
+font-size: 24px;
+font-weight: 600;
+line-height: 35px;
+padding-top: 20px;
+}
+#featured-container{
+    text-align: center;
+    height: 695px;
+}
+.featured-container-heading{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    padding-top: 50px;
+}
+.featured-container-description{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 24px;
+}
+.instagram-container-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    padding: 38px 100px 10px 100px;
+
+}
+.instagram-container-box-feature{
+}
+.instagram-container-box-img{
+}
+.intagram-container-box-img img{
+
+}
+.instagram-container-box-feature a{
 }
